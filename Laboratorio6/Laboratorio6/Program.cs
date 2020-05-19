@@ -62,9 +62,9 @@ namespace Laboratorio6
                 string nombre = Console.ReadLine();
                 Console.Write("Rut de la empresa: ");
                 string rutEmpresa = Console.ReadLine();
-                Console.WriteLine("Agregue las divisiones de la empresa y sus trabajadores");
-
-                empresas.Add(new Empresa(nombre, rutEmpresa, divisiones));
+                Console.WriteLine("Divisiones de la empresa y sus trabajadores");
+                List<Division> divisiones = new List<Division>();
+                empresas1.Add(new Empresa(nombre, rutEmpresa, divisiones));
             }
 
             void verEmpresas(List<Empresa> empresas1)
